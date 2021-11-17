@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cold ring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="screen">
+        <h1>Кольцо холода</h1>
+        <p id="startBtn" class="start">Начать игру</p>
+    </div>
+
+    <div class="screen">
+        <label class="input-style">
+            Выберете количество демонов:
+            <input type="number" min="1" max="100" id="inputCountDemons">
+        </label>
+
+        <label class="input-style">
+            <p>Напишите координаты демонов</p>
+            <p>(в формате (x1,y1) (xn,yn)):</p>
+            <input type="text" id="inputCoorDemons" value="(2.5) (9.6)">
+        </label>
+        <button id="startBtn2" class="btn">Нажми чтобы начать</button>
+    </div>
+
+    <div class="screen">
+        <div class="game-desk"></div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="animation.js"></script>
+</body>
+</html>
