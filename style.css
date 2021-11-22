@@ -33,7 +33,88 @@ body {
 }
 
 .game-desk {
-    width: 750px;
-    height: 750px;
-    background: #be3636;
+    width: 700px;
+    height: 700px;
+    background: #fb6147c9;
+}
+
+
+.screen--two{
+    display: flex;
+    background: linear-gradient(90deg, #810016 0%, #310000 100%);
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./img/8A4E9FC9-613D-4153-A705-6246268EF360.png);
+    background-size: cover;
+}
+
+
+/* #531c0f
+#35040c 0%, #110000 100% */
+
+
+.screen-1{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 10px;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.23);
+    border-radius: 15px;
+}
+
+.input-style-top, .input-style-button{
+    margin-bottom: 10px;
+}
+
+.input-style-button > p{
+    margin-bottom: 3px;
+    line-height: normal;
+}
+
+p{
+    font-size: 20px;
+}
+
+.but__1, .but__2{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+}
+
+.but__1{
+    background-color: rgba(184, 174, 174, 0.445);
+    height: 35px;
+    width: 140px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.input-style-top > .but__1{
+    height: 30px;
+    width: 50px;
+}
+
+.but__1:hover{
+    background-color: rgba(184, 174, 174, 0.445);
+}
+
+.but__2{
+    width: 250px;
+    height: 50px;
+    color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.but__2:hover{
+    background-color:rgba(54, 53, 50, 0.37);
+}
+
+.but__2:active{
+    background-color:rgba(54, 53, 50, 0.623);
 }

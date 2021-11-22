@@ -12,7 +12,7 @@
         <p id="startBtn" class="start">Начать игру</p>
     </div>
 
-    <div class="screen">
+    <!-- <div class="screen">
         <label class="input-style">
             Выберете количество демонов:
             <input type="number" min="1" max="100" id="inputCountDemons">
@@ -24,9 +24,24 @@
             <input type="text" id="inputCoorDemons" value="(2.5) (9.6)">
         </label>
         <button id="startBtn2" class="btn">Нажми чтобы начать</button>
-    </div>
+    </div> -->
 
-    <div class="screen">
+    <div class="screen--two">
+
+        <div class="screen-1">
+            <label class="input-style-top">
+                <p>Выберите количество демонов:</p>
+                <input class="but__1" type="number" min="1" max="100" id="inputCountDemons">
+            </label>
+    
+            <label class="input-style-button">
+                <p>Напишите координаты демонов</p>
+                <p>(в формате (x1,y1) (xn,yn)):</p>
+                <input class="but__1" type="text" id="inputCoorDemons" value="(2.5) (9.6)">
+            </label>
+            <button class="but__2" id="startBtn2" class="btn">Нажмите, чтобы начать</button>
+        </div>
+
         <div class="game-desk"></div>
     </div>
 
