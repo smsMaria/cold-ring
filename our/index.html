@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Cold ring</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="konva.min.js"></script>
 </head>
 <body>
 
@@ -20,17 +21,21 @@
 
         <label class="input-style">
             <p>Напишите координаты демонов</p>
-            <p>(в формате (x1,y1) (xn,yn)):</p>
+            <p>(в формате (x1, y1) (xn,yn)):</p>
             <input type="text" id="inputCoorDemons" value="(2.5) (9.6)">
         </label>
         <button id="startBtn2" class="btn">Нажми чтобы начать</button>
     </div>
 
-    <div class="screen">
-        <div class="game-desk"></div>
+    <div class="screen ">
+        <div class="container">
+            <div id="root"></div>
+        </div>
+        <input type="range" min="10" max="1000" id="inputZoom" value="100">
     </div>
 
     <script src="index.js"></script>
-    <script src="animation.js"></script>
+<!--    <script src="styles/animation.js"></script>-->
+    <script src="drawCanvas.js"></script>
 </body>
 </html>
